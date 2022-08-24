@@ -7,6 +7,16 @@ const output = {
     home: (req, res) => {
         res.render("home/index");
     },  
+    mHome: (req, res) => {
+        res.render("mobile/index");
+    },  
+    mFamilyCare: (req, res) => {
+        res.render("mobile/familyCare");
+    },  
+    mvisitCare: (req, res) => {
+        res.render("mobile/visitCare");
+    },  
+
     login: (req, res) => {
         res.render("home/login");
     },
