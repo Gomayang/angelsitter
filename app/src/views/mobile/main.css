@@ -1,7 +1,7 @@
 .button1{
     font-family : GodoM;
     width: 47.5%;
-    height: 300px;
+    height: 400px;
     float:left;
     border-radius: 10px;
     font-size : 280%;
@@ -13,13 +13,13 @@
 .button2{
     font-family : GodoM;
     width: 47.5%;
-    height: 300px;
+    height: 400px;
     float : right;
     border-radius: 10px;
     font-size : 280%;
     background-color: transparent;
     padding-top : 15px;
-    margin-bottom: 3.5%;
+    margin-bottom: 2.5%;
     margin-right: 1.5%;
 }
 
@@ -31,7 +31,7 @@
     border-radius: 10px;
     font-size : 280%;
     background-color: transparent;
-    margin-bottom: 3.5%;
+    margin-bottom: 2.5%;
 }
 
 .button4{
