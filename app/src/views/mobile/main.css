@@ -133,11 +133,10 @@ table.type10 {
     margin: 20px 10px;
   }
   table.type10 thead th {
-    width: 150px;
+    width: 50%;
     padding: 10px;
     font-weight: bold;
     vertical-align: top;
-    color: #fff;
     background: #e7708d;
     margin: 20px 10px;
   }
