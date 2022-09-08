@@ -127,6 +127,7 @@ p{
 table.type10 {
     border-collapse: collapse;
     text-align: left;
+    font-size: 180%;
     line-height: 1.5;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
