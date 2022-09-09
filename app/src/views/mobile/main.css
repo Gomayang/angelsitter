@@ -129,29 +129,34 @@ table.type10 {
     text-align: left;
     font-size: 180%;
     line-height: 1.5;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-color: #bae9ba;
+    border-top: 1px solid #bae9ba;
+    border-bottom: 1px solid #bae9ba;
     margin: 20px 10px;
   }
   table.type10 thead th {
     width: 50%;
     padding: 10px;
     font-weight: bold;
+    border-color: #bae9ba;
     vertical-align: top;
-    background: #e7708d;
+    background: #8eff8e;
     margin: 20px 10px;
   }
   table.type10 tbody th {
     width: 150px;
+    border-color: #bae9ba;
     padding: 10px;
   }
   table.type10 td {
     width: 350px;
     padding: 10px;
+    border-color: #bae9ba;
     vertical-align: top;
   }
   table.type10 .even {
-    background: #fdf3f5;
+    border-color: #bae9ba;
+    background: #e8ffe8;
   }
 
 @font-face {
