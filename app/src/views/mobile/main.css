@@ -125,32 +125,41 @@ p{
 }
 
 table.type10 {
-    border-collapse: collapse;
+    border-collapse: separate;
     text-align: left;
     font-size: 180%;
     line-height: 1.5;
     border-color: #bae9ba;
     border-top: 1px solid #bae9ba;
     border-bottom: 1px solid #bae9ba;
+    border-left:0;
+    border-spacing:0px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #000;
     margin: 20px 10px;
   }
   table.type10 thead th {
     width: 50%;
     padding: 10px;
     font-weight: bold;
+    letter-spacing: 0.5px;
     border-color: #bae9ba;
     vertical-align: top;
     background: #8eff8e;
     margin: 20px 10px;
+    vertical-align: middle;
+    border-collapse: separate;
   }
   table.type10 tbody th {
     width: 150px;
     border-color: #bae9ba;
+    border-left: 1px solid #ddd;  
     padding: 10px;
   }
   table.type10 td {
     width: 350px;
     padding: 10px;
+    border-top: 1px solid #ddd;   
     border-color: #bae9ba;
     vertical-align: top;
   }
@@ -158,6 +167,12 @@ table.type10 {
     border-color: #bae9ba;
     background: #e8ffe8;
   }
+  thead:first-child tr:first-child th:first-child, tbody:first-child tr:first-child td:first-child {
+    border-radius: 4px 0 0 0;
+    }
+    thead:last-child tr:last-child th:first-child, tbody:last-child tr:last-child td:first-child {
+    border-radius: 0 0 0 4px;
+    }
 
 @font-face {
     font-family: GodoB;
