@@ -1,11 +1,19 @@
 "use strict";
 
 const User = require("../../models/User")
+const MobileDetect = require("mobile-detect");
 
 
 const output = {
     home: (req, res) => {
-        res.render("home/index");
+        // md = new MobileDetect(req.headers['user-agent'])
+        // if(md.mobile() == null) {
+        //     res.render("home/index");
+        // }
+        // else {
+        //     res.render("mobile/index");
+        // }
+        res.render("mobile/index");
     },  
     mHome: (req, res) => {
         res.render("mobile/index");
