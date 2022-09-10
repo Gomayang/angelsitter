@@ -21,7 +21,7 @@ const output = {
     mFamilyCare: (req, res) => {
         res.render("mobile/familyCare");
     },  
-    mvisitCare: (req, res) => {
+    mVisitCare: (req, res) => {
         res.render("mobile/visitCare");
     },  
 
