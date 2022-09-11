@@ -5,10 +5,12 @@
     "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "install": "^0.13.0",
     "mobile-detect": "^1.4.5",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "nano": "^10.0.0",
+    "nodemon": "^2.0.19",
     "winston": "^3.8.1"
   },
   "name": "angelsitter",

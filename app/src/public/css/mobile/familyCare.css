@@ -86,15 +86,15 @@ table.type10 {
 
 @font-face {
     font-family: GodoB;
-    src: url(fonts/Godo/GodoB.woff);
+    src: url(../../fonts/Godo/GodoB.woff);
 }
 
 @font-face {
     font-family: GodoM;
-    src: url(fonts/Godo/GodoM.woff);
+    src: url(../../fonts/Godo/GodoM.woff);
 }
 
 @font-face {
     font-family: Pretendard;
-    src: url(fonts/Pretendard/Pretendard-Regular.woff);
+    src: url(../../fonts/Pretendard/Pretendard-Regular.woff);
 }
