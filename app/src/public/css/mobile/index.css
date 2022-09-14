@@ -4,7 +4,7 @@
     border-radius: 10px;
     float:left;
     background-color: transparent;
-    margin-left: 1.5%
+    margin-left: 1%
 }
 .button1:after{
     content: "";
@@ -20,7 +20,7 @@
     float:right;
     background-color: transparent;
     margin-bottom: 2.5%;
-    margin-right: 1.5%;
+    margin-right: 1%;
 }
 .button2:after{
     content: "";
@@ -30,7 +30,6 @@
 }
 
 .button3{
-    font-family : GodoM;
     width: 97%;
     height: 120px;
     float : middle;
@@ -46,14 +45,12 @@
 }
 
 .button4{
-    font-family : GodoM;
     width: 47.5%;
     height: 150px;
     float : left;
     border-radius: 10px;
     background-color: transparent;
-    padding-top : 15px;
-    margin-left: 1.5%;
+    margin-left: 1%;
     margin-bottom: 3.5%;
 }
 .button4:after{
@@ -64,42 +61,44 @@
 }
 
 .button5{
-    font-family : GodoM;
     width: 47.5%;
     height: 150px;
     float : right;
     border-radius: 10px;
-    font-size : 140%;
-    background-color: transparent;
-    padding-top : 15px;
-    margin-bottom: 2%;
-    margin-right: 1.5%;
+    background-color: transparent;  
+    margin-right: 1%;
     margin-bottom: 3.5%;
+}
+.button5:after{
+    content: "";
+    display:block;
+    padding-bottom: 100%;
+    padding-top : 15px;
 }
 
 .button6{
-    font-family : GodoM;
     width: 47.5%;
     height: 150px;
     float : left;
     border-radius: 10px;
-    font-size : 140%;
     background-color: transparent;
-    padding-top : 15px;
-    margin-left: 1.5%;
+    margin-left: 1%;
     margin-bottom: 3.5%;
+}
+.button6:after{
+    content: "";
+    display:block;
+    padding-bottom: 100%;
+    padding-top : 15px;
 }
 
 .button7{
-    font-family : GodoM;
     width: 47.5%;
     height: 150px;
-    float : left;
+    float : right;
     border-radius: 10px;
-    font-size : 140%;
     background-color: transparent;
-    padding-top : 15px;
-    margin-left: 1.5%;
+    margin-right: 1%;
     margin-bottom: 3.5%;
 }
 .button7:after{
@@ -125,12 +124,16 @@ button{
     text-align: left;
     display:flex;
     padding-left: 15px;
-    border-color: black;
+    border-color: transparent;
 }
 
 p{
     text-align: left;
     font-size: 50%;
+}
+
+body{
+    background-color:#e8ffe8;
 }
 
 @font-face {
